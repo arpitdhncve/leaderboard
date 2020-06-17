@@ -1,0 +1,59 @@
+table{
+    margin-left: 10px;
+    width:25%;
+    border-collapse: collapse;
+}
+tr{
+    height: 40px;
+}
+td{ 
+   
+    padding: 10px;
+    text-align: center;
+    background-color: #ECF6EE;
+}
+
+ th{
+    padding: 10px;
+    text-align: center;
+    background-color: #6D8AE9;
+    height: 120px;
+    border-bottom: 10px;
+    border-bottom-style:  outset;
+    font-size: 30px;
+    font-weight: lighter;
+}
+th:nth-child(2)
+{
+    font-family: cursive;
+    padding-bottom: 20px; 
+}
+tr:last-child td:last-child{
+    border-bottom-right-radius: 25px;
+}
+tr:last-child td:first-child{
+    border-bottom-left-radius: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+th:last-child{
+    border-top-right-radius: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+th:first-child{
+    border-top-left-radius: 25px;
+}
+td:nth-child(2){
+    text-align: left;
+    font-family: cursive;
+    font-size: 15px;
+}
+td:nth-child(3){
+    font-weight: bold;
+    color: lightcoral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+td:nth-child(1){
+    font-weight: bold;
+    color: black;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
